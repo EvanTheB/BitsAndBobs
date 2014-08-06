@@ -1,0 +1,4 @@
+for NUM in {116..255}
+do
+	ssh -i ~/.ssh/id_dsa 20369194@130.95.200.$NUM "w"
+done
